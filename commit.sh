@@ -1,3 +1,7 @@
 #!/bin/bash 
-DATE=`date "+$Y%m%d%H%M%S"`
+DATE=`date "+%y-%m-%d:%H:%M:%S"`
+echo "=========================="
+echo "timestamp:"$DATE
+echo "=========================="
+git add *
 git commit -m "add code $DATE"
